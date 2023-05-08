@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    background-color: black;
+}
+
+.body {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    max-width: 1440px;
+    flex-direction: column;
+    min-height: 100vh;
+}
