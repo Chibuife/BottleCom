@@ -5,19 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
-    <script defer href="./app.js"></script>
-
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
     <title>BottleCom</title>
 </head>
 
 <body>
     <div class="body">
-    <nav>
-        nav bar
+    <nav id="nav-bar">
+        <h1><a href="index.html">BottleCom</a></h1>
+        <button class="btn nav-bar">Contact</button>
+        <button class="btn nav-bar">About</button>
     </nav>
-    <section>
-        hero section 
+    <section class="main-section">
+        <div id="first-details">
+                <h2 id="first-header">
+                BottleCom Group of Companies
+                </h2>
+                    <p id="welcome-paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi...<span class="viewMore-link"><a href="viewmore.html">view more</a></span>
+                    </p>
+                    <button class="btn">
+                        Login
+                    </button>
+                    <button class="btn" >
+                        Sign Up
+                    </button>
+        </div>
+        <div id="advert-picDiv">
+            <img id="advert-pic" src="images/download.jpg"/>
+        </div>
     </section>
     <section>
         drink of the week section
@@ -41,6 +60,7 @@
         footer
     </footer>
     </div>
+    <script defer href="./app.js"></script>
 </body>
 
 </html>
