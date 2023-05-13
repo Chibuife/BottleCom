@@ -12,3 +12,36 @@
   border-radius: 30px;
   margin-left: -20px;
 }
+
+.btn {
+  display: flex;
+  gap: 2rem;
+}
+
+button {
+  background-color: red;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  padding: 0.3rem 0;
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.502);
+
+}
+
+.btn img {
+  height: 20px;
+}
+
+@media (max-width: 700px) {
+  button {
+    width: 100px;
+    font-size: 0.5rem;
+  }
+}
